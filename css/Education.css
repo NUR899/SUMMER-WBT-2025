@@ -1,0 +1,66 @@
+body
+{
+
+  background-color: hsl(190, 12%, 90%); 
+  background-size: cover;
+
+}
+ h2 {
+  color: #606260;
+
+}
+
+nav ul {
+  display: flex;
+  background: #333;
+  padding: 10px;
+  list-style-type: none;
+  justify-content: center; 
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.education-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; 
+  margin: 20px 0;
+  
+}
+img {
+  transition: all 0.3s ease;
+}
+
+  img:hover {
+  transform: scale(1.1); 
+}
+
+
+.education-imgs img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+footer {
+  background-color: #c4a396;
+  color: rgb(6, 5, 5);
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+

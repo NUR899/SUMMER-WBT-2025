@@ -1,0 +1,30 @@
+body
+{
+   
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(190, 12%, 90%); 
+  background-size: cover;
+}
+
+
+ h2 {
+  color: #606260;
+
+}
+
+nav ul {
+  display: flex;
+  background: #333;
+  padding: 10px;
+  list-style-type: none;
+  justify-content: center; 
+}
+
+nav ul li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
